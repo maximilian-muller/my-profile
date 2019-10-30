@@ -1,0 +1,134 @@
+/* Colors and fonts */
+
+body {
+	background-color: rgb(90,30,30);
+	color: black;
+	font-family: 'Noto Serif', serif;
+	font-size: 16px;	
+}
+
+h1, h2 {
+	color: black;
+	font-family: 'Liu Jian Mao Cao', cursive;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-decoration: underline;
+
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: lighter;
+	margin-bottom: 0px;
+	text-align: center;
+	color: rgb(90,30,30);
+ 	font-family: 'Liu Jian Mao Cao', cursive;
+
+}
+
+
+
+
+a {
+	text-decoration: none;
+	color: rgb(90,30,30);
+}
+
+a:hover {
+	color: black;
+}
+
+
+/* Custom design with class and id */
+
+	
+
+
+.container {
+	width: 1000px;
+	margin: 15px auto;
+	background: white;
+	padding: 10px;
+	border-radius: 15px	
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 410px;
+	}
+}
+
+.box-introduction {
+	padding-left: 30px;
+	text-align: center;
+	border-bottom: solid black 3px;			
+}
+
+.card {
+	margin: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+	border: solid 3px;
+	border-color: rgb(90,30,30);
+	box-shadow: 0 15px 35px rgba(0,0,0,.2);
+}
+
+.border-black {
+		border-bottom: solid black 3px;		
+}
+
+.box-outro {
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 40px;
+	background-color: grey;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	text-align: center;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+	
+}
+
+.list-inline li{
+	display: inline;
+	padding: 30px;
+}
+
+.list-inline i {
+	font-size: 50px;
+
+}
+
+.image-center {
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 20px;
+	border-radius: 5px
+}
+
+
+}
+
+
